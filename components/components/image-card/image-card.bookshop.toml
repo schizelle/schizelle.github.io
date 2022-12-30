@@ -1,0 +1,11 @@
+[component]
+structures = []
+label = "Image Card"
+description = "Image card used for Image lists"
+icon = "wysiwyg"
+tags = []
+
+[props.image]
+title = "Hello World"
+subtitle = "Lorem Ipsum"
+image = "https://placekitten.com/800/400"

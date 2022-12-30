@@ -1,4 +1,4 @@
-title: Vonge
+title: Michelle Naidu
 
 plugins:
   - jekyll-bookshop
@@ -34,6 +34,8 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  gallery:
+    output: true
   testimonials:
     output: false
   posts:
@@ -47,6 +49,9 @@ cloudcannon:
     projects:
       _icon: 'work_outline'
       _subtext_key: subtitle
+    gallery:
+      _icon: 'work_outline'
+      _subtext_key: subtitle
     testimonials:
       _icon: 'format_quote'
       _subtext_key: position
@@ -58,6 +63,7 @@ _collection_groups:
     collections:
       - pages
       - projects
+      - gallery
       - testimonials
   - heading: Blogging
     collections:
