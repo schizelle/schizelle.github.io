@@ -4,7 +4,9 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Bio'
+    - title: 'About'
       url: '/about/'
     - title: 'Gallery'
-      url: '/projects/'
+      url: '/gallery/'
+    - title: 'Work'
+      url: '/work/'
