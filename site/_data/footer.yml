@@ -2,14 +2,10 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Elements'
-      url: '/elements/'
-    - title: 'About'
+    - title: 'Bio'
       url: '/about/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'Gallery'
+      url: '/projects/'
 
 copyright_text_html: >-
-  <p> 2021 &copy; <a href="/">Vonge</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
+  <p> 2023 &copy; <a href="/">Michelle Naidu</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
