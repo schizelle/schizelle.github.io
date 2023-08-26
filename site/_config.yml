@@ -38,6 +38,8 @@ collections:
     output: true
   headshots:
     output: true
+  shows:
+    output: true
   testimonials:
     output: false
   posts:
