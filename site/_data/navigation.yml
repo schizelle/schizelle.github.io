@@ -2,11 +2,16 @@ logo_image:
 
 menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Gallery'
-      url: '/gallery/'
-    - title: 'Work'
-      url: '/work/'
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about/"
+    - title: "Gallery"
+      submenu:
+        - title: "Headshots"
+          url: "/headshots/"
+        - title: "Shows"
+          url: "/shows/"
+    # Add projects (similar to blogging in upstream)
+    - title: "Work"
+      url: "/work/"

@@ -1,49 +1,60 @@
-# Vonge
+# Schizelle Portfolio
 
-Vonge is a Personal portfolio/blog site template for Jekyll. Browse through a [live demo](https://jazzed-kale.cloudvent.net/).
-Increase the web presence of your brand with this configurable theme.
+## Distinction between Gallery types
 
-![Vonge template screenshot](_screenshot.png)
+- _gallery
+  - See on the main page
+  - Can be expanded via **View All**
+- _headshots
+  - Part of Gallery Drop down
+- _shows
+  - Part of Gallery Drop down
+- _creative_projects
+  - Part of Gallery Drop down
 
-Vonge was made by [CloudCannon](http://cloudcannon.com/), the JAMStack Cloud CMS.
-The component library is built and maintained for use with [Bookshop](https://github.com/cloudcannon/bookshop/)
+## To add a new subheading under Gallery
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Community](https://cloudcannon.com/community/).
+### References
+- See `components/gallery-subpage`
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/vonge-jekyll-bookshop-template)
+### Instructions
 
-## Features
+- Navigate to `_data/navigation.yml` and add a new submenu with your required URL
 
-* Component library for website building
-* Fully configurable Website
-* Pre-built pages
-* Pre-styled components
-* Blog
-* Category pages
-* Testimonials
-* Portfolio
-* Live editing with [CloudCannon](http://cloudcannon.com/)
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* Search engine optimisation
+```yml
+- title: "Gallery"
+    submenu:
+    - title: "Headshots"
+        url: "/headshots/"
+```
 
-## Develop
+- Create a `{URL}.html` in `collections/_pages`
+  - For example `headshots.html`
+  - Add this front matter to your `{URL}.html`
+  - Make sure you specify the "from" keyword, this will be similar to what you write in `_config.yml`
 
-Vonge was built with [Jekyll](http://jekyllrb.com/) version 4.2.0, but should support newer versions as well.
+```html
+---
+title: Headshots
+content_blocks:
+  - _bookshop_name: page-heading
+    title: Headshots
+    description: Professional headshots for film and tv
+  - _bookshop_name: gallery-subpage
+    from: headshots
+---
+```
 
-Install the dependencies for Bookshop:
+- Create an `_{URL}` folder in the `collections` folder
+  - See the `_headshots` folder created
+  - Add your image-card files as markdown
 
-~~~bash
-$ npm install
-~~~
-
-Install the Jekyll dependencies with [Bundler](http://bundler.io/):
-
-~~~bash
-$ npm run install-jekyll
-~~~
-
-Run the website:
-
-~~~bash
-$ npm start
-~~~
+- Go to `_config.yml`
+  - Make sure to add your `_URL` folder created under the `collections` section as `URL`
+  - NOTE: output: true is required for page to be rendered
+```yml
+collections
+  # ...
+  headshots:
+    output: true
+```
