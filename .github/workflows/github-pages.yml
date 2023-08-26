@@ -29,6 +29,10 @@ jobs:
           cd site
           bundle exec jekyll build
 
+      - name: Copy CNAME
+        run: |
+          cp CNAME ./site/_site/CNAME
+          
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
