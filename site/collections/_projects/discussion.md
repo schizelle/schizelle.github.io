@@ -1,3 +1,0 @@
-Shows
-Creative Projects 
-Gallery 
