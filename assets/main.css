@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@media all, bookshop { /* Color Scheme */
+@media all, bookshop {
+  /* Color Scheme */
   .list-reset {
     list-style-type: none;
     margin: 0;
@@ -546,19 +547,33 @@
     margin: 0 auto;
   }
 
-  /* Animate */ /* Footer */
+  /* Animate */
+  /* Footer */
   /* Copyright */
   /* Header */
   /* Logo */
   /* Nav */
-  /* Pagination */ /* Sections */ /* Social Links */ /* Page + Post + Project */
+  /* Pagination */
+  /* Sections */
+  /* Social Links */
+  /* Page + Post + Project */
   /* Share */
   /* Post navigation */
   /* Related posts */
   /* Disqus comments */
   /* Project */
   /* Project Navigation */
-  /* Posts List */ /* Button */ /* Contact Form */ /* Gallery List */ /* Hero */ /* Newsletter */ /* Page Heading */ /* Posts List */ /* Projects List */ /* Testimonials Section */
+  /* Posts List */
+  /* Button */
+  /* Contact Form */
+  /* Gallery List */
+  /* Gallery List */
+  /* Hero */
+  /* Newsletter */
+  /* Page Heading */
+  /* Posts List */
+  /* Projects List */
+  /* Testimonials Section */
 }
 @media only screen and (max-width: 1300px) {
   .container {
