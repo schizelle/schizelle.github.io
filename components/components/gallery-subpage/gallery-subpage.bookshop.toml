@@ -1,0 +1,9 @@
+[component]
+structures = [ "content_blocks" ]
+label = "Gallery"
+description = "Lists all of the site's images"
+icon = "wysiwyg"
+tags = ["Collections"]
+
+[props]
+from = "gallery" # This is from _config.yml collections subheading

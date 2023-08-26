@@ -1,0 +1,9 @@
+<div class="container animate">
+  <div class="row">
+    {% for image in site[include.from] %}
+      {% bookshop image-card image=image %}
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Create a list of image cards -->
