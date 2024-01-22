@@ -131,7 +131,8 @@
 	&__btn {
 		display: flex;
 		align-items: center;
-		margin-top: 40px;
+		margin-top: 30px;
+		justify-content: flex-start;
 
 		.cta-button {
 			margin-right: 8px;
