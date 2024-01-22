@@ -23,7 +23,7 @@
 
   &--primary {
     color: $white;
-    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+    background: linear-gradient(90deg, $dark 0%, $secondary-color 167%);
 
     &:hover {
       color: $white !important;
@@ -45,18 +45,76 @@
       opacity: 0;
       will-change: transform;
       transition: opacity 0.35s;
-      background: linear-gradient(90deg, $primary-color 0%, $secondary-color 107%);
+      background: linear-gradient(90deg, $dark  0%, $secondary-color 107%);
     }
   }
 
   &--secondary {
-    color: $text-color;
-    background: $background-color-alt;
+    color: $white;
+    background: linear-gradient(90deg, $secondary-color 0%, $primary-color 167%);
 
     &:hover {
-      color: $text-color;
+      color: $white !important;
+
+      &:before {
+        opacity: 1;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      will-change: transform;
+      transition: opacity 0.35s;
+      background: linear-gradient(90deg, $secondary-color 0%, $primary-color 107%);
     }
   }
+
+
+  &--tertiary {
+    color: $white;
+    background: linear-gradient(90deg, $primary-color 0%, $white 167%);
+
+    &:hover {
+      color: $white !important;
+
+      &:before {
+        opacity: 1;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      will-change: transform;
+      transition: opacity 0.35s;
+      background: linear-gradient(90deg, $primary-color 0%, $white 107%);
+    }
+  }
+
+  // Keeping this for reference
+  // &--tertiary {
+  //   color: $text-color;
+  //   background: $background-color;
+
+  //   &:hover {
+  //     color: $text-color;
+  //   }
+  // }
 
   &--small {
     padding: 16px 32px;
