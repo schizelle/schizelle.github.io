@@ -8,6 +8,7 @@ tags = ["Structure", "Text", "Links"]
 [props]
 title = "Hi there, I am Vanessa Marley"
 description_html = "<strong>Photographer</strong> and <strong>Visual Content Strategist</strong> from Albany. I work as a lifestyle, product, and landscape photographer, creating images for a diverse range of requests, from online media to printed artwork."
+subdescription_html = "Expand on your bio here in a few lines."
 image = "/images/01.jpg"
 image_alt = "Vanessa Marley's picture"
 cta_button = "Get in touch"
