@@ -20,7 +20,6 @@ jobs:
 
       - name: Install website packages
         run: |
-          npm install -g npm@9.2.0
           npm install --no-audit
           npm run install-jekyll
     
