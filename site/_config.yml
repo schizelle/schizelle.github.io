@@ -33,7 +33,7 @@ collections:
     permalink: /:title/
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /unused/:slug
   gallery:
     output: true
   headshots:
@@ -44,7 +44,7 @@ collections:
     output: false
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /project/:slug
 
 cloudcannon:
   collections:
