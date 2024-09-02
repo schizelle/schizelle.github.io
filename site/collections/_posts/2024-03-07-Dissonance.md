@@ -18,6 +18,6 @@ The second song wrote itself in a similar fashion two weeks later but by then, a
     margin: 0 0 0 15px;
   }
 </style>
-<img alt="Introduction" src="/images/creative_projects/dissonance/2.jpg" alt="" width="200" height="200" id="float_right"/>
+<img alt="Introduction" src="/images/creative_projects/dissonance/2.jpg" alt="" width="500" height="500" id="float_right"/>
 
 So Dissonance was born, the music refined with some help from Brian Tate, the storyline and staging with mentorship from Julie McIsaac, and unending support from friends and family. It has been presented at the Canadian College of Performing Arts' Festival of New Works with Olivia Gentlemen and Maëlys Wega bringing my vision to life. My very first musical and definitely not the last!
