@@ -3,7 +3,7 @@ title: Dissonance
 subtitle: a musical in one act
 date: 2024-03-07
 image: '/images/creative_projects/dissonance/cover.jpg'
-tags: [composition, new work]
+tags: [composition, new&nbspwork]
 ---
 In the summer of 2023, I was alone at home - most of my friends had left for the summer and the apartment felt emptier than usual. For all intents and purposes, it was a beautiful night and I knew I wanted to write something that encapsulated how 'mopey' I felt. At the time, I didn't think much of it, just recorded a few iterations with lyrics as they came to my mind, scrawling chords on a scrap piece of paper with a Sharpie. 
 
