@@ -1,13 +1,15 @@
 footer_menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Gallery'
-      url: '/gallery/'
-    - title: 'Video & Music'
-      url: '/videos/'
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about/"
+    - title: "Gallery"
+      url: "/gallery/"
+    - title: "Projects"
+      url: "/projects/"
+    - title: "Video & Music"
+      url: "/videos/"
 
 copyright_text_html: >-
   <p> 2023 &copy; <a href="/">Michelle Naidu</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
