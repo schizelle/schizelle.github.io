@@ -13,5 +13,7 @@ menu__settings:
         - title: "Shows"
           url: "/shows/"
     # Add projects (similar to blogging in upstream)
+    - title: "Projects"
+      url: "/projects/"
     - title: "Video & Music"
       url: "/videos/"
