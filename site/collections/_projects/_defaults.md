@@ -1,6 +1,7 @@
 ---
-date:
-title:
+title: 
 subtitle:
-image:
+date: YYYY-MM-DD
+tags: []
+image: 
 ---
