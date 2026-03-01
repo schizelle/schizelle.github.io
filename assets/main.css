@@ -546,34 +546,6 @@
     padding-right: 10px;
     margin: 0 auto;
   }
-
-  /* Animate */
-  /* Footer */
-  /* Copyright */
-  /* Header */
-  /* Logo */
-  /* Nav */
-  /* Pagination */
-  /* Sections */
-  /* Social Links */
-  /* Page + Post + Project */
-  /* Share */
-  /* Post navigation */
-  /* Related posts */
-  /* Disqus comments */
-  /* Project */
-  /* Project Navigation */
-  /* Posts List */
-  /* Button */
-  /* Contact Form */
-  /* Gallery List */
-  /* Gallery List */
-  /* Hero */
-  /* Newsletter */
-  /* Page Heading */
-  /* Posts List */
-  /* Projects List */
-  /* Testimonials Section */
 }
 @media only screen and (max-width: 1300px) {
   .container {
@@ -1944,6 +1916,10 @@
     height: 10px;
     float: left;
   }
+}
+@media all, bookshop {
+
+  /* Animate */
   body:not(.stop-animations) .animate {
     animation: animateElement cubic-bezier(0.3, 0.45, 0.45, 0.95) 0.75s;
     animation-duration: 0.75s;
@@ -2189,6 +2165,9 @@
   .lazy.loaded {
     opacity: 1;
   }
+}
+@media all, bookshop {
+  /* Footer */
   .footer {
     position: relative;
     margin-top: 44px;
@@ -2254,6 +2233,7 @@
   }
 }
 @media all, bookshop {
+  /* Copyright */
   .copyright {
     margin-top: 20px;
     font-size: 16px;
@@ -2275,6 +2255,7 @@
   }
 }
 @media all, bookshop {
+  /* Header */
   .c-header {
     height: auto;
     transition: all 0.35s;
@@ -2299,6 +2280,7 @@
   }
 }
 @media all, bookshop {
+  /* Logo */
   .logo__link {
     font-family: "Inter", Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 21px;
@@ -2312,6 +2294,7 @@
   .logo__image {
     max-height: 50px;
   }
+  /* Nav */
   .main-nav {
     display: flex;
     align-items: center;
@@ -2554,6 +2537,7 @@
   }
 }
 @media all, bookshop {
+  /* Pagination */
   .pagination__inner {
     margin: 40px 0 44px;
   }
@@ -2645,6 +2629,7 @@
   }
 }
 @media all, bookshop {
+  /* Sections */
   .section {
     padding: 96px 0;
   }
@@ -2725,6 +2710,7 @@
   }
 }
 @media all, bookshop {
+  /* Social Links */
   .social {
     text-align: center;
   }
@@ -2766,6 +2752,7 @@
     background: linear-gradient(90deg, #1495a7 0%, #003687 167%);
     transition: all 0.25s;
   }
+  /* Page + Post + Project */
   .post-top,
   .page-top {
     padding: 96px 0 48px;
@@ -2976,6 +2963,9 @@
     border: none;
     text-decoration: none;
   }
+}
+@media all, bookshop {
+  /* Share */
   .post__share {
     margin: 32px 0 60px;
   }
@@ -3045,6 +3035,7 @@
   }
 }
 @media all, bookshop {
+  /* Post navigation */
   .post__navigation {
     display: flex;
     justify-content: space-between;
@@ -3145,6 +3136,7 @@
   }
 }
 @media all, bookshop {
+  /* Related posts */
   .related-posts {
     display: none;
     margin-top: 80px;
@@ -3165,6 +3157,7 @@
   }
 }
 @media all, bookshop {
+  /* Disqus comments */
   .post__comments {
     max-width: 780px;
     margin: 80px auto 40px;
@@ -3176,6 +3169,7 @@
   }
 }
 @media all, bookshop {
+  /* Project */
   .project-subtitle {
     margin: 20px 0 0;
     font-size: 21px;
@@ -3190,6 +3184,7 @@
   }
 }
 @media all, bookshop {
+  /* Project Navigation */
   .project__navigation {
     max-width: 780px;
     margin: 80px auto 40px;
@@ -3235,6 +3230,7 @@
   }
 }
 @media all, bookshop {
+  /* Posts List */
   .c-blog-card {
     margin-bottom: 20px;
     will-change: transform;
@@ -3388,6 +3384,9 @@
     font-size: 12px;
     line-height: 14px;
   }
+}
+@media all, bookshop {
+  /* Button */
   .c-button {
     position: relative;
     z-index: 1;
@@ -3489,6 +3488,7 @@
     padding: 24px 44px;
     font-size: 18px;
   }
+  /* Contact Form */
   .c-contact-form .container {
     position: relative;
   }
@@ -3561,6 +3561,11 @@
     color: #110E38;
     border-bottom-color: #110E38;
   }
+}
+@media all, bookshop {
+  /* Gallery List */
+  /* Gallery List */
+  /* Hero */
   .c-hero {
     padding: 30px 0;
   }
@@ -3888,6 +3893,9 @@
     opacity: 0;
     transition: transform 0.4s cubic-bezier(0.165, 0.85, 0.45, 1), opacity 0.4s cubic-bezier(0.165, 0.85, 0.45, 1);
   }
+}
+@media all, bookshop {
+  /* Newsletter */
   .c-subscribe__inner {
     max-width: 580px;
     margin: 0 auto;
@@ -3974,6 +3982,9 @@
       color: #1495a7;
     }
   }
+}
+@media all, bookshop {
+  /* Page Heading */
   .c-page-heading {
     max-width: 780px;
     margin: 0 auto;
@@ -4058,6 +4069,7 @@
   }
 }
 @media all, bookshop {
+  /* Posts List */
   .article {
     margin-bottom: 20px;
     will-change: transform;
@@ -4327,6 +4339,9 @@
     opacity: 0;
     transition: transform 0.4s cubic-bezier(0.165, 0.85, 0.45, 1), opacity 0.4s cubic-bezier(0.165, 0.85, 0.45, 1);
   }
+}
+@media all, bookshop {
+  /* Projects List */
   .c-testimonial-card__content {
     width: 100%;
     padding: 32px;
@@ -4395,6 +4410,7 @@
     line-height: 1;
     opacity: 0.7;
   }
+  /* Testimonials Section */
   .testimonial-item .testimonial-content {
     width: 100%;
     padding: 32px;
